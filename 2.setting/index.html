@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaji-pay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="#">家事ぺい</a>
+        </h1>
+        <div class="login">
+            <ul>
+                <li>
+                    <a href="#login">ログインはこちら</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <h2>ユーザー1の設定</h2>
+<label for="nickname1">ニックネーム:</label>
+<input type="text" id="nickname1">
+<button onclick="setNickname(1)">保存</button>
+
+<h2>ユーザー2の設定</h2>
+<label for="nickname2">ニックネーム:</label>
+<input type="text" id="nickname2">
+<button onclick="setNickname(2)">保存</button>
+
+    <h2>家事設定</h2>
+    <div class="housework-settings">
+      <label for="houseworkName">家事の名前:</label>
+      <input type="text" id="houseworkName" placeholder="家事の名前">
+      <label for="houseworkCost">金額 (¥):</label>
+      <input type="number" id="houseworkCost" placeholder="金額">
+      <button onclick="addHousework()">追加</button>
+    </div>
+    <div class="housework-list">
+      <h2>設定された家事項目</h2>
+      <ul id="houseworkItems"></ul>
+    </div>
+
+
+
+    <footer> 
+        <nav>
+            <ul>
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#">家事の貸付</a></li>
+                <li><a href="#">家事の清算</a></li>
+                <li><a href="#">現在の残高</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+        </nav>  
+   </footer>
+
+
+</body>
+</html>

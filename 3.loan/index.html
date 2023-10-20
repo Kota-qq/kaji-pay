@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="#">家事ぺい</a>
+        </h1>
+        <div class="login">
+            <ul>
+                <li>
+                    <a href="#login">ログインはこちら</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="user-container">
+      <div class="user">
+        <label for="name1">ニックネーム:</label>
+        <input type="text" id="name1" placeholder="ニックネームを入力">
+        <label for="item1">項目:</label>
+        <input type="text" id="item1" placeholder="項目を入力" list="itemSuggestions1">
+        <datalist id="itemSuggestions1"></datalist>
+        <label for="amount1">金額:</label>
+        <input type="number" id="amount1" placeholder="金額を入力" step="10">
+        <button onclick="addItem(1)">項目を追加</button>
+        <ul id="itemList1"></ul>
+        <div id="totalAmount1">合計金額: ¥0</div>
+        <div id="dateInfo1"></div>
+        <div id="difference1">差額: ¥0</div>
+      </div>
+      <div class="user">
+        <label for="name2">ニックネーム:</label>
+        <input type="text" id="name2" placeholder="ニックネームを入力">
+        <label for="item2">項目:</label>
+        <input type="text" id="item2" placeholder="項目を入力" list="itemSuggestions2">
+        <datalist id="itemSuggestions2"></datalist>
+        <label for="amount2">金額:</label>
+        <input type="number" id="amount2" placeholder="金額を入力" step="10">
+        <button onclick="addItem(2)">項目を追加</button>
+        <ul id="itemList2"></ul>
+        <div id="totalAmount2">合計金額: ¥0</div>
+        <div id="dateInfo2"></div>
+        <div id="difference2">差額: ¥0</div>
+      </div>
+    </div>
+  
+    <footer> 
+        <nav>
+            <ul>
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#">家事の貸付</a></li>
+                <li><a href="#">家事の清算</a></li>
+                <li><a href="#">現在の残高</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+        </nav>  
+   </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>

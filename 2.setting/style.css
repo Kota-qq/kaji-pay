@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+img {
+    width: 200px;
+}
+
+header {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 4%;
+    height: 70px;
+    background-color: rgb(255, 189, 214);
+}
+
+header h1 a {
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+}
+
+div ul li {
+    list-style: none;
+    margin: 0 auto;
+}
+
+div ul li a {
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+}
+.main {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.title {
+    text-align:center
+}
+
+
+.new-article {
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.htu {
+    text-align: center;
+    padding-bottom: 150px;
+
+}
+
+.htu-header {
+    margin: 0 0 15px;
+}
+
+.htu-p {
+    margin: 0 0 15px;
+}
+
+
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: rgb(255, 189, 214);
+    margin: 0 auto;
+    padding: 0 4%;
+    line-height: 70px;
+    
+    
+}
+
+nav {
+    text-align: center;
+    
+    
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+    
+}
+
+
+body {
+    background-color: #fff6e7; /* 淡いクリーム色の背景 */
+  }
